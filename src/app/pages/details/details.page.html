@@ -1,0 +1,17 @@
+<app-header title="Détails" [hasBackButton]="true"></app-header>
+
+<ion-content>
+    <ion-card class="art">
+        <ion-card-header>
+            <div class="art-img">
+                <img src="{{ art.image }}" alt="{{ art.name }}">
+            </div>
+            <ion-card-title>{{ art.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p class="art-paragraph"><span>Longitude</span>{{ art.longitude }}</p>
+            <p class="art-paragraph"><span>Latitude</span>{{ art.latitude }}</p>
+            <p class="art-created">Créé le {{ art.createdAt }}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

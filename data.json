@@ -1,0 +1,68 @@
+{
+  "arts": [
+    {
+      "id": 1,
+      "name": "Chuuuttt !!!",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2018/02/lv_90e9c7481775f11179dab05e50af4d226fda4fa6.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/2011"
+    },
+    {
+      "id": 2,
+      "name": "M. Chat",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/diapo5monsieurchat.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/1990"
+    },
+    {
+      "id": 3,
+      "name": "La Petite Fille au ballon",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/petite-fille-au-ballon-bansky-1140x789.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/2002"
+    },
+    {
+      "id": 4,
+      "name": "Inside Out Project",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/inside-out-jr-1.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/2011"
+    },
+    {
+      "id": 5,
+      "name": "Nobody likes me",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/iheart-nobody-likes-me.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/2011"
+    },
+    {
+      "id": 6,
+      "name": "Space Invader",
+      "image": "https://www.kazoart.com/blog/wp-content/uploads/2018/02/9662542lpw-9662668-article-space-invader-invader-graff-paris-jpg_4469427_1250x625-1024x512.jpg",
+      "longitude": 2.1525452,
+      "latitude": 5.571568,
+      "createdAt": "11/02/1996"
+    },
+    {
+      "name": "Blabla",
+      "image": "https://www.thispersondoesnotexist.com/image",
+      "longitude": "2.1054846",
+      "latitude": "2.51846464",
+      "createdAt": "02/15/6889",
+      "id": 7
+    },
+    {
+      "createdAt": "2022-02-16T17:54:00+01:00",
+      "name": "blabla2",
+      "image": "https://www.thispersondoesnotexist.com/image",
+      "longitude": "225555",
+      "latitude": "5555555",
+      "id": 8
+    }
+  ]
+}

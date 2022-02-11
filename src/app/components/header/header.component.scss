@@ -1,0 +1,7 @@
+ion-header {
+    border-top: 8px solid var(--ion-color-primary);
+
+    &::after {
+        background-image: none;
+    }
+}

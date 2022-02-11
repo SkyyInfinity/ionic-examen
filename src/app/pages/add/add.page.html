@@ -1,0 +1,47 @@
+<app-header title="Ajouter" [hasBackButton]="true"></app-header>
+
+<ion-content>
+    <div class="l-constrained">
+        <ion-text>
+            <h1>Ajouter une oeuvre</h1>
+        </ion-text>
+        <form #artForm="ngForm" (submit)="onSubmit()">
+            <div class="field">
+                <ion-item>
+                    <ion-label position="stacked">Nom de l'oeuvre</ion-label>
+                    <ion-input [(ngModel)]="art.name" name="name" required #name="ngModel"></ion-input>
+                </ion-item>
+            </div>
+            <div class="field">
+                <ion-item>
+                    <ion-label position="stacked">Image de l'oeuvre</ion-label>
+                    <ion-input [(ngModel)]="art.image" name="image" required #image="ngModel"></ion-input>
+                </ion-item>
+            </div>
+            <div class="field">
+                <ion-item>
+                    <ion-label position="stacked">Longitude</ion-label>
+                    <ion-input [(ngModel)]="art.longitude" name="longitude" required #longitude="ngModel"></ion-input>
+                </ion-item>
+            </div>
+            <div class="field">
+                <ion-item>
+                    <ion-label position="stacked">Latitude</ion-label>
+                    <ion-input [(ngModel)]="art.latitude" name="latitude" required #latitude="ngModel"></ion-input>
+                </ion-item>
+            </div>
+            <div class="field">
+                <ion-item>
+                    <ion-label>Date de création de l'oeuvre</ion-label>
+                    <!-- <ion-input ></ion-input> -->
+                    <ion-datetime presentation="date" locale="fr-FR" [(ngModel)]="art.createdAt" name="createdAt" required #createdAt="ngModel"></ion-datetime>
+                </ion-item>
+            </div>
+            <div class="field">
+                <div class="buttons">
+                    <ion-button type="submit" fill="solid" shape="round" color="primary" [disabled]="!artForm.valid">Ajouter</ion-button>
+                </div>
+            </div>
+        </form>
+    </div>
+</ion-content>
